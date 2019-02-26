@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>FORM</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Start your project here-->
+
+<!-- Default form subscription -->
+<div class="container">
+    <!-- Default form register -->
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <!-- Default form register -->
+            <form class="text-center border border-light p-5">
+                <h1 class=" mb-4 font-weight-bold">REGISTRATION FORM</h1>
+                <div class="form-row mb-4">
+                    <!--  name -->
+                    <label class="font-weight-bold">Name</label>
+                    <input type="text" id="InputName" class="form-control" placeholder="Name">
+                    <!-- E-mail -->
+                    <label class="font-weight-bold">Email</label>
+                    <input type="email" id="InputEmail" class="form-control mb-4" placeholder="E-mail">
+                    <!-- Password -->
+                    <label class="font-weight-bold">Password</label>
+                    <input type="password" id="InputPassword" class="form-control" placeholder="Password">
+                    <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                        </small>
+                </div>
+                <!-- Sign up button -->
+                <button type="button" class="btn btn-light" onclick="ckvalidate(this)" >Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <table class="table" id="myTable">
+                <thead>
+                <tr>
+                    <th scope="col" class="font-weight-bold">Name</th>
+                    <th scope="col" class="font-weight-bold">Email</th>
+                    <th scope="col" class="font-weight-bold">Password</th>
+                    <th scope="col" class="font-weight-bold">Update</th>
+                    <th scope="col" class="font-weight-bold">Delete</th>
+                </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="js/main.js">
+
+
+</script>
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
